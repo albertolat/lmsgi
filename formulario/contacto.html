@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contacto_bikeKTM</title>
+    <link rel="icon" href="../imagenes/biciKTM_icon.jpg" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <form action="respuesta_formulario.html" method="post">
+        <br>
+        <br>
+        <fieldset style="width: 25%;">
+            <legend>Datos personales</legend>
+            <label for="Nombre">Nombre</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Apellido">Apellido</label><br>
+            <input type="text" id="Nombre" name="Nombre" required autofocus>
+            &nbsp;&nbsp;&nbsp;
+            <input type="text" id="Apellido" name="Apellido" required><br><br>
+            <label for="Telefono">Telefono</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email">Email</label><br>
+            <input type="tel" id="Telefono" name="Telefono" maxlength="9" required>
+            &nbsp;&nbsp;&nbsp;
+            <input type="email" id="email" required placeholder="direccion@correo">
+        </fieldset>
+        <br>
+        <br>
+        <br>&nbsp;&nbsp;&nbsp;
+        <label for="bici_modelo">Modelo bici</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="Talla_cuadro">Talla cuadro</label>
+        <br>&nbsp;&nbsp;&nbsp;
+        <input type="text" id="bici_modelo" name="bici_modelo" value="KTM ULTRA RACE 26" disabled>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select id="Talla_cuadro" name="Talla_cuadro">
+            <option value="S">Talla S</option>
+            <option value="M">Talla M</option>
+            <option value="L">Talla L</option>
+        </select>
+        <br>
+        <br>&nbsp;&nbsp;&nbsp;
+        <label for="Comentarios">Comentarios</label>
+        <br>&nbsp;&nbsp;&nbsp;
+        <textarea id="comentarios" name="Comentarios" maxlength="500" rows="10" cols="55"></textarea>
+        <br>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Enviar">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Restablecer">
+
+    </form>
+
+</body>
+
+</html>
